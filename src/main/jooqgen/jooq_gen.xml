@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration xmlns="http://www.jooq.org/xsd/jooq-codegen-3.6.0.xsd">
+  <!-- Configure the database connection here -->
+  <jdbc>
+    <driver>org.postgresql.Driver</driver>
+    <url>jdbc:postgresql://0.0.0.0:5432/delivery</url>
+    <user>delivery</user>
+    <password>delivery</password>
+  </jdbc>
+
+  <generator>
+  	<name>org.jooq.codegen.JavaGenerator</name>
+  	<generate>
+        <javaTimeTypes>true</javaTimeTypes>
+    </generate>
+    
+    <database>
+      <name>org.jooq.meta.postgres.PostgresDatabase</name>
+      <inputSchema>public</inputSchema>
+      <includes>.*</includes>
+      <excludes></excludes>
+    </database>
+
+    <target>
+        <packageName>br.com.mathidios.springboot.jooq.docker.postgres.model.jooq</packageName>
+        <directory>../../../src/main/java</directory>
+    </target>
+  </generator>
+</configuration>

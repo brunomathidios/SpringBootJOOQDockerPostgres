@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringBootJOOQDockerPostgres
+Implementation-Version: 1.0.0-SNAPSHOT
+Built-By: brunomathidios
+Implementation-Vendor-Id: mathidios.springboot.jooq.docker.postgres
+Build-Jdk: 1.8.0_171
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/SpringBootJOOQDockerPostgres
+Created-By: Maven Integration for Eclipse
+
